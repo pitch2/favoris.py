@@ -7,7 +7,7 @@ def utilisation():
     elif choix == 2:
         lire()
     else:
-        print("Il faut soit 1 ou 2")
+        print("1 ou 2")
 
 
 def new():
