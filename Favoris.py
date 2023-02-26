@@ -11,8 +11,7 @@ def utilisation():
 
 
 def new():
-    print("Votre lien: ")
-    ajout = input()
+    ajout = input("Votre lien: ")
     f = open("lien.txt", "a")
     f.write("Votre lien: "+ajout)
     f.close()
