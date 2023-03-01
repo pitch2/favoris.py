@@ -23,7 +23,8 @@ def lire():
     f.close()
 
 
-f = open("lien.txt", "a")
-f.close()
+def init():
+    f = open("lien.txt", "a")
+    f.close()
 
 utilisation()
